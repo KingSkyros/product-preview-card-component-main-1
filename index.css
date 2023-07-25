@@ -14,7 +14,7 @@ main{
     /* background-color: white;  */
     /* max-width: 48em;  */
     margin-top: 5em; 
-    margin-left: 5em;
+    margin-left: 3em;
 } 
 
 .image{
@@ -31,7 +31,7 @@ main{
     padding: 20px; 
     background-color: #fff;  
     padding-bottom: 15em; 
-    width: 25em; 
+    width: 24em; 
 } 
 
 h3,p{
@@ -69,7 +69,12 @@ button{
     border-radius: 15px; 
     color: #fff; 
     font-size: 4vh;
-} 
+}  
+
+button:hover{
+    cursor: pointer; 
+    background-color: hsl(212, 21%, 14%);
+}
 
 .price{
     text-align: center;  
