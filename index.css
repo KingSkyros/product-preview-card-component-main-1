@@ -12,7 +12,7 @@ main{
     justify-content: center; 
     align-items: center; 
     /* background-color: white;  */
-    max-width: 40em; 
+    max-width: 48em; 
     margin-top: 5em; 
     margin-left: 20em;
 } 
@@ -24,7 +24,7 @@ main{
 }
 
 .perfume{
-    max-width: 21rem;  
+    max-width: 23rem;  
 } 
 
 .container{
@@ -34,3 +34,23 @@ main{
     padding-bottom: 9em;
 } 
 
+h3,p{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 120%; 
+    padding: 2px;
+}  
+
+h2, h1{
+    font-family: 'Fraunces', serif;  
+    font-size: 170%; 
+    padding: 2%;
+} 
+
+del{
+    font-family: 'Fraunces', serif; 
+    font-size: 120%;
+} 
+
+button{
+    
+}
