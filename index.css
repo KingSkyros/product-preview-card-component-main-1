@@ -4,17 +4,17 @@
 }  
 
 body{
-    background-color: hsl(30, 38%, 92%);
+    background-color: hsl(30, 38%, 92%); 
 }
 
-main{
+main{ 
     display: flex;
     justify-content: center; 
     align-items: center; 
     /* background-color: white;  */
     max-width: 48em; 
     margin-top: 5em; 
-    margin-left: 20em;
+    margin-left: 15em;
 } 
 
 .image{
@@ -24,33 +24,40 @@ main{
 }
 
 .perfume{
-    max-width: 23rem;  
+    max-width: 30rem;  
 } 
 
-.container{
-    padding: 20px; 
-    background-color: #fff; 
-    padding-top: 9rem; 
-    padding-bottom: 9em;
+.container{ 
+    background-color: #fff;  
+    padding-bottom: 12em;
 } 
 
 h3,p{
     font-family: 'Montserrat', sans-serif; 
     font-size: 120%; 
-    padding: 2px;
+    padding: 3px;
 }  
 
 h2, h1{
     font-family: 'Fraunces', serif;  
     font-size: 170%; 
-    padding: 2%;
+    padding: 3%;
 } 
 
 del{
     font-family: 'Fraunces', serif; 
     font-size: 120%;
-} 
+}
+
+h1{
+    font-size: 3em;
+}
 
 button{
     
+} 
+
+.price{
+    text-align: center;  
+    display: flex;
 }
