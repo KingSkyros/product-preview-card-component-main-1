@@ -30,14 +30,15 @@ main{
 .container{ 
     padding: 20px; 
     background-color: #fff;  
-    padding-bottom: 18em; 
+    padding-bottom: 15em; 
     width: 25em; 
 } 
 
 h3,p{
     font-family: 'Montserrat', sans-serif; 
     font-size: 120%; 
-    padding: 3px;
+    padding: 3px; 
+    color: hsl(228, 12%, 48%);
 }  
 
 h2, h1{
@@ -52,14 +53,29 @@ del{
 }
 
 h1{
-    font-size: 3em;
+    font-size: 3em; 
+    color: hsl(212, 21%, 14%);
+} 
+
+h2{
+    color: hsl(158, 36%, 37%); 
 }
 
 button{
-    background-color: hsl(158, 36%, 37%);
+    background-color: hsl(158, 36%, 37%); 
+    border: none; 
+    width: 13em; 
+    height: 3em;
+    border-radius: 15px; 
+    color: #fff; 
+    font-size: 4vh;
 } 
 
 .price{
     text-align: center;  
-    display: flex;
+    display: flex; 
+} 
+
+.cart{
+    width: 20px; 
 }
