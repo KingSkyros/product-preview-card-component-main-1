@@ -12,9 +12,9 @@ main{
     justify-content: center; 
     align-items: center; 
     /* background-color: white;  */
-    max-width: 48em; 
+    /* max-width: 48em;  */
     margin-top: 5em; 
-    margin-left: 15em;
+    margin-left: 5em;
 } 
 
 .image{
@@ -28,8 +28,10 @@ main{
 } 
 
 .container{ 
+    padding: 20px; 
     background-color: #fff;  
-    padding-bottom: 12em;
+    padding-bottom: 18em; 
+    width: 25em; 
 } 
 
 h3,p{
@@ -54,7 +56,7 @@ h1{
 }
 
 button{
-    
+    background-color: hsl(158, 36%, 37%);
 } 
 
 .price{
