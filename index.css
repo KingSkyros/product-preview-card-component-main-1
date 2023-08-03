@@ -4,7 +4,8 @@
 }  
 
 body{
-    background-color: hsl(30, 38%, 92%); 
+    background-color: hsl(30, 38%, 92%);  
+    min-height: 100dvh;
 }
 
 main{ 
@@ -14,27 +15,35 @@ main{
     /* background-color: white;  */
     /* max-width: 48em;  */
     margin-top: 5em; 
-    margin-left: 3em;
+    max-width: 300em; 
+    flex-direction: column;  
+    overflow: hidden;
 } 
 
 .image{
     /* background-color: orange;  */
     display: flex; 
-    float: left; 
+
 }
 
 .perfume{
-    max-width: 30rem;  
+    max-width: 34rem; 
+    display: block; 
+    object-fit: cover; 
+    border-top-left-radius: 2em; 
+    border-top-right-radius: 2em;
 } 
 
 .container{ 
-    padding: 20px; 
-    background-color: #fff;  
-    padding-bottom: 15em; 
-    width: 24em; 
+    padding:7em; 
+    background-color: #fff;   
+    padding-bottom: 2em;
+    width: 20em;  
+    border-bottom-left-radius: 2em; 
+    border-bottom-right-radius: 2em;
 } 
 
-h3,p{
+p{
     font-family: 'Montserrat', sans-serif; 
     font-size: 120%; 
     padding: 3px; 
@@ -64,11 +73,11 @@ h2{
 button{
     background-color: hsl(158, 36%, 37%); 
     border: none; 
-    width: 13em; 
-    height: 3em;
+    width: 11em; 
+    height: 2em;
     border-radius: 15px; 
     color: #fff; 
-    font-size: 4vh;
+    font-size: 2em;
 }  
 
 button:hover{
@@ -78,9 +87,14 @@ button:hover{
 
 .price{
     text-align: center;  
-    display: flex; 
+    display: flex;  
+    align-items: center;
 } 
 
 .cart{
     width: 20px; 
+} 
+
+footer{
+    padding: 20px;
 }
